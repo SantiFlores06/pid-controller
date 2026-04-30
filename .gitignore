@@ -1,41 +1,20 @@
-# Prerequisites
-*.d
+# Build
+build/
+cmake-build-*/
 
-# Compiled Object files
-*.slo
-*.lo
+# Outputs generados
+data/*.csv
+data/*.txt
+
+# Bitácora personal
+DEVLOG.md
+
+# Editores
+.vscode/settings.json
+*.swp
+*~
+
+# Binarios
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
 *.out
-*.app
-
-# debug information files
-*.dwo
+docs/generated/
